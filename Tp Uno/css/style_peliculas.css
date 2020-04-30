@@ -1,0 +1,54 @@
+body{
+    background: #8B807E;
+}
+
+div#portadaB{
+    background: #09120d;
+    width: 100%;
+    position: relative;
+    bottom: 110px;
+}
+div#portada_banner{
+    height: ; /*altura*/
+    width: 100%;  /*ancho*/
+    margin: auto;
+    max-width: 624px; /*ancho maximo para la pagina*/
+    z-index: 20;
+}
+
+#title_uno{
+    background: rgb(255, 0, 0);
+    position: relative;
+    z-index: 30;
+   
+}
+
+h1{
+    position: relative; left: 40px;
+    color: white;
+    z-index: 40; /*superpone el elemento*/
+}
+
+.titulos_de_portada{
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

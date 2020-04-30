@@ -1,0 +1,113 @@
+body{
+    background-color: #111;
+    }
+    /*Portada*/
+img.portada{
+    width:100%;
+}
+    /*Portada*/
+
+    /*barra de navegacion*/
+.barra_de_nav li{
+    display: inline-block;
+}
+.barra_de_nav ul{
+    background: #000000;
+    text-align: right;
+    padding: 0 0 0 0px;
+    position: relative;
+    top: -320;
+}
+.nav_enlace{
+    color: #fcbf1e;
+    background:none;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10 50px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.nav_enlace:hover{
+    color: #dbdbdb;
+    background-color: #40bad5;
+    border-radius: 14px;
+    cursor: pointer;
+}
+    /*barra de navegacion*/
+
+    /*titulares*/
+header.titulares_caja{
+    background: white;
+    display: inline-block;
+    position: relative;
+    top: 60;
+    width: 30%;
+    height: 50%;
+}
+h1.titu_uno{
+    background: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+h2.titu_dos{
+    font-family: monospace;
+    padding-left: 10px;
+    font-size: 16px;
+}
+div.redes:visited{
+    color: white;
+}
+i .fab fa-facebook-f{
+    height: 200;
+
+}
+div.busqueda{
+    position: relative;
+}
+.tex_bus{
+    background-color: #40bad52c;
+    color: #dbdbdb;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    padding: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+i.fas{
+    color: #dbdbdb;
+    position: relative;
+    z-index: 1;
+    left: 30;
+    top: 50%;
+}
+    /*titulares*/
+    /*barra de novedades*/
+.novedades_caja{
+    background: red;
+    position: relative;
+    top: -180;
+    width: 200%;
+    left: 120%;
+    height: 300;
+    padding-left: 20;
+}
+.novedades_caja h4{
+    margin: 0;
+    font-size: 20;
+    text-align: center;
+}
+.novedades_caja img{
+    width: 350px;
+    float: left;
+}
+.novedades_caja p{
+    margin: 0 0 0 370;
+    font-size: 15;
+    font-family: monospace;
+}
+
+    /*barra de novedades*/
